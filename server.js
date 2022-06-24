@@ -15,7 +15,7 @@ const app = express();
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("test api");
+  res.send("test api!!!");
 });
 
 app.get("/api/productos", async (req, res) => {
